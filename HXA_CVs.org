@@ -1,0 +1,73 @@
+#+OPTIONS: toc:nil num:nil
+#+LaTeX_CLASS: slides
+#+LaTeX_CLASS_OPTIONS: [captions=tableheading]
+
+* _SELF-ASSESSMENT_
+    I have done world-class research at *Bell-Labs* in Shanghai (ASB)
+    for about 1 years after I graduated from
+    Yokohama-National-University (YNU) in Japan as a Ph.D. selected by
+    the *China State-Sponsored Postgraduate Study Abroad Program*. The
+    algorithm design, implementation and optimization skills have been
+    cultivated during the research experiences.
+    In addition, through attending the international conferences (Korea, Sydney,
+    and Toronto (*the role of session chair*)) and collaborating with
+    colleagues in Bell-Labs, I have attained
+    a sufficient international communication and collaboration skills, capable of facing any challenges. 
+* _EDUCATION_
+    | 10/2011 - 10/2014 | Ph.D., Yokohama National University (YNU, *State-Sponsored*), Japan                     |
+    | 10/2008 - 03/2011 | Master of Science, Dept. of Physics, Shanghai Jiao Tong University (SJTU, *985*), China |
+    | 09/2004 - 09/2008 | Bachelor of Science, School of Science, Jiangnan University (JNU, *211*)                |
+	  
+* _PERSONAL SKILLS_
+  - Major in algorithm design, implementation, optimization
+  - Proficient in C, C++, MATLAB, Python, Verilog/VHDL, Linux and Emacs (lisp)
+  - Self-study statistical machine learning and R
+  - Served as project leader, own good team spirit and project management capabilities.
+* _RESEARCH EXPERIENCE_
+-  10/2011 - 10/2014, *Ph. D @Kohno Laboratory* in YNU (under the support of the Japanese government GCOE project) 
+    -  *60 GHz UWB based inter-vehicle communication for Internet of Things (IoT)*: Firstly
+        proposed a novel 60-GHz ultra-wideband radio-over-fiber architecture  to resolve
+        the bottleneck of limited bandwidth and high-cost of 5G dense
+        base-stations (5-fold bandwidth increase and 45% cost reduction).
+    -  *Visible light communication based inter-vehicle communication for IoT*: Firstly proposed a hybrid radio and visible
+        light communication system employing visual-MIMO algorithm to
+        enlarge the capacity and ensure the safety in intelligent
+        transport system (9-fold capacity and 50% ranging increase). 
+
+* _WORK EXPERIENCE_
+- 10/2014 - PRESENT, *@BELL LABS in Shanghai* (Alcatel-Lucent in Shanghai)
+    - *10X Mobile Front-haul (MFH) system for future 5G*: Firstly proposed a novel
+      Interleaved Channel Aggregation  (ICA) algorithm to support high
+      capacity for future 5G (11-fold capacity increase and 30% cost
+      reduction)
+    -  *XG-Fast for future indoor hybrid copper and wireless broadband
+       access*: Firstly proposed a novel hybrid copper and wireless
+       MIMO model to support high capacity for future indoor access
+       (9-fold capacity increase and 50% cost reduction)	   
+    - *Real-time demo for 10X MFH using Python based USRP and FPGA*:
+      Firstly designed python-based USRP and FPGA to support
+      high-bandwidth transmission (7-fold bandwidth increase)
+
+* _AWARDS_
+    | 2008.10 - 2011.10 |   Excellent Academic Scholarship | SJTU
+    | 2006 |  Outstanding Student Leader of the School | JNU
+    | 2005.09 - 2006.9 | Outstanding Student Leader of School | JNU
+    | 2005.09-2007.09 | Excellent Academic Scholarship ( *TOP 1 and 2*) |JNU
+* _INTERESTS_
+  | Sports | Running, Fitness (Bench Press) |
+  | Life | Tourism, and Photography (SLR) |
+  | Music | Celine Dion, Kana Nishino, and Classics|
+* _LANGUAGES_
+  | English | - expert in reading and writing; proficient in listening and speaking |
+  | Japanese | - proficient in reading and writing;  average in listening and speaking |
+* _PUBLICATIONS_
+1. Xiaoan Huang, Ryuji Kohno, ICUWB2013, Sydney, Australia, September 15-18, 2013.
+2. Xiaoan Huang, Ryuji Kohno, ICACT2013, Korea, Jan. 27-30, 2013.
+3. Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno, Cyber Journals, July Edition, 2013 Volume 3, Issue 7. 
+4. Xiaoan Huang, Ryuji Kohno, CCSCI2014, Toronto, Canada, Jan. 10-12, 2014.
+5. Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno. Applied Mechanics and Materials. Vol. 548. 2014. 
+6. Xiaoan Huang, Pengfei Zhu, et. al, Optics Communications 283, 2373-2377, 2010
+
+* _PATENTS_
+  1. Xiaoan Huang, “Interleaved Channel Aggregation Based
+     Multi-Intermedia Frequency Over Fiber System”, Bell-Labs, 2015.
