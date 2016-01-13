@@ -1,387 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>HXA_CVs</title>
-<!-- 2016-01-13 Wed 22:10 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="xiaoanh" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Xiaoanh.GitHub.io by xiaoanh</title>
 
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  /*]]>*/-->
-</style>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Xiaoanh.GitHub.io</h1>
+        <p></p>
 
 
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
-</head>
-<body>
-<div id="content">
-<h1 class="title">HXA_CVs</h1>
+        <p class="view"><a href="https://github.com/xiaoanh">View My GitHub Profile</a></p>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="underline">SELF-ASSESSMENT</span></h2>
-<div class="outline-text-2" id="text-1">
-<p>
-I have done world-class research at <b>Bell-Labs</b> in Shanghai (ASB)
+      </header>
+      <section>
+        <h1>
+<a id="self-assessment" class="anchor" href="#self-assessment" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>SELF-ASSESSMENT</em>
+</h1>
+
+<pre><code>I have done world-class research at *Bell-Labs* in Shanghai (ASB)
 for about 1 years after I graduated from
 Yokohama-National-University (YNU) in Japan as a Ph.D. selected by
-the <b>China State-Sponsored Postgraduate Study Abroad Program</b>. The
+the *China State-Sponsored Postgraduate Study Abroad Program*. The
 algorithm design, implementation and optimization skills have been
 cultivated during the research experiences.
 In addition, through attending the international conferences (Korea, Sydney,
-and Toronto (<b>the role of session chair</b>)) and collaborating with
+and Toronto (*the role of session chair*)) and collaborating with
 colleagues in Bell-Labs, I have attained
 a sufficient international communication and collaboration skills, capable of facing any challenges. 
-</p>
-</div>
-</div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="underline">EDUCATION</span></h2>
-<div class="outline-text-2" id="text-2">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+</code></pre>
 
+<h1>
+<a id="education" class="anchor" href="#education" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>EDUCATION</em>
+</h1>
 
-<colgroup>
-<col  class="left" />
+<pre><code>| 10/2011 - 10/2014 | Ph.D., Yokohama National University (YNU, *State-Sponsored*), Japan                     |
+| 10/2008 - 03/2011 | Master of Science, Dept. of Physics, Shanghai Jiao Tong University (SJTU, *985*), China |
+| 09/2004 - 09/2008 | Bachelor of Science, School of Science, Jiangnan University (JNU, *211*)                |
+</code></pre>
 
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="left">10/2011 - 10/2014</td>
-<td class="left">Ph.D., Yokohama National University (YNU, <b>State-Sponsored</b>), Japan</td>
-</tr>
+<h1>
+<a id="personal-skills" class="anchor" href="#personal-skills" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>PERSONAL SKILLS</em>
+</h1>
 
-<tr>
-<td class="left">10/2008 - 03/2011</td>
-<td class="left">Master of Science, Dept. of Physics, Shanghai Jiao Tong University (SJTU, <b>985</b>), China</td>
-</tr>
-
-<tr>
-<td class="left">09/2004 - 09/2008</td>
-<td class="left">Bachelor of Science, School of Science, Jiangnan University (JNU, <b>211</b>)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="underline">PERSONAL SKILLS</span></h2>
-<div class="outline-text-2" id="text-3">
-<ul class="org-ul">
-<li>Major in algorithm design, implementation, optimization
-</li>
-<li>Proficient in C, C++, MATLAB, Python, Verilog/VHDL, Linux and Emacs (lisp)
-</li>
-<li>Self-study statistical machine learning and R
-</li>
+<ul>
+<li>Major in algorithm design, implementation, optimization</li>
+<li>Proficient in C, C++, MATLAB, Python, Verilog/VHDL, Linux and Emacs (lisp)</li>
+<li>Self-study statistical machine learning and R</li>
 <li>Served as project leader, own good team spirit and project management capabilities.
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="underline">RESEARCH EXPERIENCE</span></h2>
-<div class="outline-text-2" id="text-4">
-<ul class="org-ul">
-<li>10/2011 - 10/2014, <b>Ph. D @Kohno Laboratory</b> in YNU (under the support of the Japanese government GCOE project) 
-<ul class="org-ul">
-<li><b>60 GHz UWB based inter-vehicle communication for Internet of Things (IoT)</b>: Firstly
+# <em>RESEARCH EXPERIENCE</em>
+
+<ul>
+<li> 10/2011 - 10/2014, <em>Ph. D <a href="https://github.com/Kohno" class="user-mention">@Kohno</a> Laboratory</em> in YNU (under the support of the Japanese government GCOE project) </li>
+<li> <em>60 GHz UWB based inter-vehicle communication for Internet of Things (IoT)</em>: Firstly
 proposed a novel 60-GHz ultra-wideband radio-over-fiber architecture  to resolve
 the bottleneck of limited bandwidth and high-cost of 5G dense
-base-stations (5-fold bandwidth increase and 45% cost reduction).
-</li>
-<li><b>Visible light communication based inter-vehicle communication for IoT</b>: Firstly proposed a hybrid radio and visible
+base-stations (5-fold bandwidth increase and 45% cost reduction).</li>
+<li> <em>Visible light communication based inter-vehicle communication for IoT</em>: Firstly proposed a hybrid radio and visible
 light communication system employing visual-MIMO algorithm to
 enlarge the capacity and ensure the safety in intelligent
-transport system (9-fold capacity and 50% ranging increase). 
-</li>
+transport system (9-fold capacity and 50% ranging increase). </li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
 
-<div id="outline-container-sec-5" class="outline-2">
-<h2 id="sec-5"><span class="underline">WORK EXPERIENCE</span></h2>
-<div class="outline-text-2" id="text-5">
-<ul class="org-ul">
-<li>10/2014 - PRESENT, <b>@BELL LABS in Shanghai</b> (Alcatel-Lucent in Shanghai)
-<ul class="org-ul">
-<li><b>10X Mobile Front-haul (MFH) system for future 5G</b>: Firstly proposed a novel
+<h1>
+<a id="work-experience" class="anchor" href="#work-experience" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>WORK EXPERIENCE</em>
+</h1>
+
+<ul>
+<li>10/2014 - PRESENT, <em><a href="https://github.com/BELL" class="user-mention">@BELL</a> LABS in Shanghai</em> (Alcatel-Lucent in Shanghai)
+
+<ul>
+<li>
+<em>10X Mobile Front-haul (MFH) system for future 5G</em>: Firstly proposed a novel
 Interleaved Channel Aggregation  (ICA) algorithm to support high
 capacity for future 5G (11-fold capacity increase and 30% cost
-reduction)
-</li>
-<li><b>XG-Fast for future indoor hybrid copper and wireless broadband
-access</b>: Firstly proposed a novel hybrid copper and wireless
+reduction)</li>
+<li> <em>XG-Fast for future indoor hybrid copper and wireless broadband
+access</em>: Firstly proposed a novel hybrid copper and wireless
 MIMO model to support high capacity for future indoor access
-(9-fold capacity increase and 50% cost reduction)           
+(9-fold capacity increase and 50% cost reduction)<br>
 </li>
-<li><b>Real-time demo for 10X MFH using Python based USRP and FPGA</b>:
+<li>
+<em>Real-time demo for 10X MFH using Python based USRP and FPGA</em>:
 Firstly designed python-based USRP and FPGA to support
-high-bandwidth transmission (7-fold bandwidth increase)
-</li>
+high-bandwidth transmission (7-fold bandwidth increase)</li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
 
-<div id="outline-container-sec-6" class="outline-2">
-<h2 id="sec-6"><span class="underline">AWARDS</span></h2>
-<div class="outline-text-2" id="text-6">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<h1>
+<a id="awards" class="anchor" href="#awards" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>AWARDS</em>
+</h1>
 
+<pre><code>| 2008.10 - 2011.10 |   Excellent Academic Scholarship | SJTU
+| 2006 |  Outstanding Student Leader of the School | JNU
+| 2005.09 - 2006.9 | Outstanding Student Leader of School | JNU
+| 2005.09-2007.09 | Excellent Academic Scholarship ( *TOP 1 and 2*) |JNU
+</code></pre>
 
-<colgroup>
-<col  class="right" />
+<h1>
+<a id="interests" class="anchor" href="#interests" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>INTERESTS</em>
+</h1>
 
-<col  class="left" />
+<p>| Sports | Running, Fitness (Bench Press) |
+  | Life | Tourism, and Photography (SLR) |
+  | Music | Celine Dion, Kana Nishino, and Classics|</p>
 
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="right">2008.10 - 2011.10</td>
-<td class="left">Excellent Academic Scholarship</td>
-<td class="left">SJTU</td>
-</tr>
+<h1>
+<a id="languages" class="anchor" href="#languages" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>LANGUAGES</em>
+</h1>
 
-<tr>
-<td class="right">2006</td>
-<td class="left">Outstanding Student Leader of the School</td>
-<td class="left">JNU</td>
-</tr>
+<p>| English | - expert in reading and writing; proficient in listening and speaking |
+  | Japanese | - proficient in reading and writing;  average in listening and speaking |</p>
 
-<tr>
-<td class="right">2005.09 - 2006.9</td>
-<td class="left">Outstanding Student Leader of School</td>
-<td class="left">JNU</td>
-</tr>
+<h1>
+<a id="publications" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>PUBLICATIONS</em>
+</h1>
 
-<tr>
-<td class="right">2005.09-2007.09</td>
-<td class="left">Excellent Academic Scholarship ( <b>TOP 1 and 2</b>)</td>
-<td class="left">JNU</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="outline-container-sec-7" class="outline-2">
-<h2 id="sec-7"><span class="underline">INTERESTS</span></h2>
-<div class="outline-text-2" id="text-7">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="left" />
-
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="left">Sports</td>
-<td class="left">Running, Fitness (Bench Press)</td>
-</tr>
-
-<tr>
-<td class="left">Life</td>
-<td class="left">Tourism, and Photography (SLR)</td>
-</tr>
-
-<tr>
-<td class="left">Music</td>
-<td class="left">Celine Dion, Kana Nishino, and Classics</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="outline-container-sec-8" class="outline-2">
-<h2 id="sec-8"><span class="underline">LANGUAGES</span></h2>
-<div class="outline-text-2" id="text-8">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="left" />
-
-<col  class="left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="left">English</td>
-<td class="left">- expert in reading and writing; proficient in listening and speaking</td>
-</tr>
-
-<tr>
-<td class="left">Japanese</td>
-<td class="left">- proficient in reading and writing;  average in listening and speaking</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="outline-container-sec-9" class="outline-2">
-<h2 id="sec-9"><span class="underline">PUBLICATIONS</span></h2>
-<div class="outline-text-2" id="text-9">
-<ol class="org-ol">
-<li>Xiaoan Huang, Ryuji Kohno, ICUWB2013, Sydney, Australia, September 15-18, 2013.
-</li>
-<li>Xiaoan Huang, Ryuji Kohno, ICACT2013, Korea, Jan. 27-30, 2013.
-</li>
-<li>Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno, Cyber Journals, July Edition, 2013 Volume 3, Issue 7. 
-</li>
-<li>Xiaoan Huang, Ryuji Kohno, CCSCI2014, Toronto, Canada, Jan. 10-12, 2014.
-</li>
-<li>Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno. Applied Mechanics and Materials. Vol. 548. 2014. 
-</li>
-<li>Xiaoan Huang, Pengfei Zhu, et. al, Optics Communications 283, 2373-2377, 2010
-</li>
+<ol>
+<li>Xiaoan Huang, Ryuji Kohno, ICUWB2013, Sydney, Australia, September 15-18, 2013.</li>
+<li>Xiaoan Huang, Ryuji Kohno, ICACT2013, Korea, Jan. 27-30, 2013.</li>
+<li>Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno, Cyber Journals, July Edition, 2013 Volume 3, Issue 7. </li>
+<li>Xiaoan Huang, Ryuji Kohno, CCSCI2014, Toronto, Canada, Jan. 10-12, 2014.</li>
+<li>Xiaoan Huang, Chika Sugimoto, and Ryuji Kohno. Applied Mechanics and Materials. Vol. 548. 2014. </li>
+<li>Xiaoan Huang, Pengfei Zhu, et. al, Optics Communications 283, 2373-2377, 2010</li>
 </ol>
-</div>
-</div>
 
-<div id="outline-container-sec-10" class="outline-2">
-<h2 id="sec-10"><span class="underline">PATENTS</span></h2>
-<div class="outline-text-2" id="text-10">
-<ol class="org-ol">
-<li>Xiaoan Huang, “Interleaved Channel Aggregation Based
-Multi-Intermedia Frequency Over Fiber System”, Bell-Labs, 2015.
-</li>
+<h1>
+<a id="patents" class="anchor" href="#patents" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>PATENTS</em>
+</h1>
+
+<ol>
+<li>Xiaoan Huang, “Interleaved Channel Aggregation Based Multi-Intermedia Frequency Over Fiber System”, Bell-Labs, 2015.</li>
 </ol>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="author">Author: xiaoanh</p>
-<p class="date">Created: 2016-01-13 Wed 22:10</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
-</body>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
